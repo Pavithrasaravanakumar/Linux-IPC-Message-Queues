@@ -51,6 +51,7 @@ int main()
 	return 0; 
 }
 reader.c
+
 ```
 // C Program for Message Queue (Reader Process)
 #include <stdio.h>
@@ -81,6 +82,7 @@ int main()
 	msgctl(msgid, IPC_RMID, NULL);
 	return 0;
 }
+
 ```
 
 
