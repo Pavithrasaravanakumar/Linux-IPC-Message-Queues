@@ -50,6 +50,7 @@ int main()
 	printf("Data send is : %s \n", message.mesg_text); 
 	return 0; 
 }
+```
 reader.c
 
 ```
